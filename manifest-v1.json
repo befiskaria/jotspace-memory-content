@@ -1,0 +1,552 @@
+{
+  "manifest_version": 1,
+  "min_app_version": "1.0.18",
+  "generated_at": "2026-04-26T00:00:00Z",
+  "license_summary_url": "https://github.com/REPLACE_OWNER/jotspace-memory-content/blob/main/LICENSES.md",
+  "github_repo_url": "https://github.com/REPLACE_OWNER/jotspace-memory-content",
+  "release_tag": "v1",
+  "packs": {
+    "core_en": {
+      "url": "https://github.com/REPLACE_OWNER/jotspace-memory-content/releases/download/v1/memory-core-en.zip",
+      "size_bytes_estimate": 12000000,
+      "sha256": "REPLACED_BY_BUILD_SCRIPT",
+      "contains": ["images/obs/*.webp", "text/en/*.json"],
+      "required": true,
+      "description": "50 illustrated Open Bible Stories with English text"
+    },
+    "audio_en": {
+      "url": "https://github.com/REPLACE_OWNER/jotspace-memory-content/releases/download/v1/memory-audio-en.zip",
+      "size_bytes_estimate": 80000000,
+      "sha256": "PHASE_3_NOT_YET_BUILT",
+      "contains": ["audio/obs_en/*.ogg"],
+      "required": false,
+      "requires": ["core_en"],
+      "description": "English audio narration for the 50 stories"
+    },
+    "lang_hi": {
+      "url": "https://github.com/REPLACE_OWNER/jotspace-memory-content/releases/download/v1/memory-lang-hi.zip",
+      "size_bytes_estimate": 8000000,
+      "sha256": "PHASE_2_NOT_YET_BUILT",
+      "contains": ["text/hi/*.json", "ui/hi.json"],
+      "required": false,
+      "requires": ["core_en"],
+      "description": "Hindi translation of stories and UI"
+    },
+    "lang_ml": {
+      "url": "https://github.com/REPLACE_OWNER/jotspace-memory-content/releases/download/v1/memory-lang-ml.zip",
+      "size_bytes_estimate": 8000000,
+      "sha256": "PHASE_2_NOT_YET_BUILT",
+      "contains": ["text/ml/*.json", "ui/ml.json"],
+      "required": false,
+      "requires": ["core_en"],
+      "description": "Malayalam translation of stories and UI"
+    }
+  },
+  "bundled_story_ids": [
+    "obs_001", "obs_002", "obs_007", "obs_010",
+    "obs_015", "obs_018", "obs_021", "obs_026",
+    "obs_037", "obs_038", "obs_042", "obs_043"
+  ],
+  "stories": [
+    {
+      "id": "obs_001",
+      "chapter": 1,
+      "title_en": "The Creation",
+      "key_verse_ref": "Genesis 1:1",
+      "key_verse_en": "In the beginning, God created the heavens and the earth.",
+      "image_path": "images/obs/story_001.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_002",
+      "chapter": 2,
+      "title_en": "Sin Enters the World",
+      "key_verse_ref": "Genesis 3:15",
+      "key_verse_en": "I will put enmity between you and the woman, and between your offspring and her offspring.",
+      "image_path": "images/obs/story_002.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_003",
+      "chapter": 3,
+      "title_en": "The Flood",
+      "key_verse_ref": "Genesis 6:9",
+      "key_verse_en": "Noah was a righteous man, blameless among the people of his time, and he walked faithfully with God.",
+      "image_path": "images/obs/story_003.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_004",
+      "chapter": 4,
+      "title_en": "God's Covenant with Abraham",
+      "key_verse_ref": "Genesis 15:6",
+      "key_verse_en": "Abram believed Yahweh, and he counted it to him for righteousness.",
+      "image_path": "images/obs/story_004.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_005",
+      "chapter": 5,
+      "title_en": "The Son of Promise",
+      "key_verse_ref": "Genesis 21:1",
+      "key_verse_en": "Yahweh visited Sarah as he had said, and Yahweh did to Sarah as he had spoken.",
+      "image_path": "images/obs/story_005.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_006",
+      "chapter": 6,
+      "title_en": "God Provides for Isaac",
+      "key_verse_ref": "Genesis 24:15",
+      "key_verse_en": "Before he had finished speaking, behold, Rebekah came out.",
+      "image_path": "images/obs/story_006.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_007",
+      "chapter": 7,
+      "title_en": "God Blesses Jacob",
+      "key_verse_ref": "Genesis 27:28",
+      "key_verse_en": "May God give you of the dew of the sky, of the fatness of the earth, and plenty of grain and new wine.",
+      "image_path": "images/obs/story_007.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_008",
+      "chapter": 8,
+      "title_en": "God Saves Joseph and His Family",
+      "key_verse_ref": "Genesis 50:20",
+      "key_verse_en": "As for you, you meant evil against me, but God meant it for good.",
+      "image_path": "images/obs/story_008.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_009",
+      "chapter": 9,
+      "title_en": "God Calls Moses",
+      "key_verse_ref": "Exodus 3:14",
+      "key_verse_en": "God said to Moses, 'I AM WHO I AM.'",
+      "image_path": "images/obs/story_009.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_010",
+      "chapter": 10,
+      "title_en": "The Ten Plagues",
+      "key_verse_ref": "Exodus 12:13",
+      "key_verse_en": "When I see the blood, I will pass over you.",
+      "image_path": "images/obs/story_010.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_011",
+      "chapter": 11,
+      "title_en": "The Passover",
+      "key_verse_ref": "Exodus 12:14",
+      "key_verse_en": "This day shall be to you for a memorial, and you shall keep it as a feast to Yahweh.",
+      "image_path": "images/obs/story_011.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_012",
+      "chapter": 12,
+      "title_en": "The Exodus",
+      "key_verse_ref": "Exodus 14:14",
+      "key_verse_en": "Yahweh will fight for you, and you shall be still.",
+      "image_path": "images/obs/story_012.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_013",
+      "chapter": 13,
+      "title_en": "God's Covenant with Israel",
+      "key_verse_ref": "Exodus 19:5",
+      "key_verse_en": "If you will indeed obey my voice, then you shall be my own possession from among all peoples.",
+      "image_path": "images/obs/story_013.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_014",
+      "chapter": 14,
+      "title_en": "Wandering in the Wilderness",
+      "key_verse_ref": "Numbers 14:18",
+      "key_verse_en": "Yahweh is slow to anger and abundant in loving kindness.",
+      "image_path": "images/obs/story_014.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_015",
+      "chapter": 15,
+      "title_en": "The Promised Land",
+      "key_verse_ref": "Joshua 1:9",
+      "key_verse_en": "Be strong and courageous. Don't be afraid. Don't be dismayed, for Yahweh your God is with you wherever you go.",
+      "image_path": "images/obs/story_015.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_016",
+      "chapter": 16,
+      "title_en": "The Deliverers",
+      "key_verse_ref": "Judges 21:25",
+      "key_verse_en": "In those days there was no king in Israel. Everyone did that which was right in his own eyes.",
+      "image_path": "images/obs/story_016.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_017",
+      "chapter": 17,
+      "title_en": "God's Covenant with David",
+      "key_verse_ref": "2 Samuel 7:16",
+      "key_verse_en": "Your house and your kingdom shall be made sure forever before you. Your throne shall be established forever.",
+      "image_path": "images/obs/story_017.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_018",
+      "chapter": 18,
+      "title_en": "The Divided Kingdom",
+      "key_verse_ref": "1 Kings 12:19",
+      "key_verse_en": "So Israel rebelled against David's house to this day.",
+      "image_path": "images/obs/story_018.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_019",
+      "chapter": 19,
+      "title_en": "The Prophets",
+      "key_verse_ref": "1 Kings 18:39",
+      "key_verse_en": "Yahweh, he is God! Yahweh, he is God!",
+      "image_path": "images/obs/story_019.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_020",
+      "chapter": 20,
+      "title_en": "The Exile",
+      "key_verse_ref": "Jeremiah 29:11",
+      "key_verse_en": "I know the thoughts that I think toward you, says Yahweh, thoughts of peace, and not of evil, to give you hope and a future.",
+      "image_path": "images/obs/story_020.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_021",
+      "chapter": 21,
+      "title_en": "God Promises the Messiah",
+      "key_verse_ref": "Isaiah 9:6",
+      "key_verse_en": "For to us a child is born. To us a son is given.",
+      "image_path": "images/obs/story_021.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_022",
+      "chapter": 22,
+      "title_en": "The Birth of John",
+      "key_verse_ref": "Luke 1:13",
+      "key_verse_en": "Don't be afraid, Zacharias, because your request has been heard.",
+      "image_path": "images/obs/story_022.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_023",
+      "chapter": 23,
+      "title_en": "The Birth of Jesus",
+      "key_verse_ref": "Luke 2:11",
+      "key_verse_en": "For there is born to you today, in David's city, a Savior, who is Christ the Lord.",
+      "image_path": "images/obs/story_023.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_024",
+      "chapter": 24,
+      "title_en": "John Baptizes Jesus",
+      "key_verse_ref": "Matthew 3:17",
+      "key_verse_en": "This is my beloved Son, with whom I am well pleased.",
+      "image_path": "images/obs/story_024.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_025",
+      "chapter": 25,
+      "title_en": "Satan Tempts Jesus",
+      "key_verse_ref": "Matthew 4:10",
+      "key_verse_en": "Get behind me, Satan! For it is written, 'You shall worship the Lord your God, and you shall serve him only.'",
+      "image_path": "images/obs/story_025.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_026",
+      "chapter": 26,
+      "title_en": "Jesus Starts His Ministry",
+      "key_verse_ref": "Luke 4:18",
+      "key_verse_en": "The Spirit of the Lord is on me, because he has anointed me to preach good news to the poor.",
+      "image_path": "images/obs/story_026.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_027",
+      "chapter": 27,
+      "title_en": "The Story of the Good Samaritan",
+      "key_verse_ref": "Luke 10:27",
+      "key_verse_en": "You shall love the Lord your God with all your heart, with all your soul, with all your strength, and with all your mind; and your neighbor as yourself.",
+      "image_path": "images/obs/story_027.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_028",
+      "chapter": 28,
+      "title_en": "The Rich Young Ruler",
+      "key_verse_ref": "Mark 10:27",
+      "key_verse_en": "With men it is impossible, but not with God, for all things are possible with God.",
+      "image_path": "images/obs/story_028.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_029",
+      "chapter": 29,
+      "title_en": "The Story of the Unmerciful Servant",
+      "key_verse_ref": "Matthew 18:21",
+      "key_verse_en": "Lord, how often shall my brother sin against me, and I forgive him?",
+      "image_path": "images/obs/story_029.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_030",
+      "chapter": 30,
+      "title_en": "Jesus Feeds Thousands of People",
+      "key_verse_ref": "John 6:35",
+      "key_verse_en": "I am the bread of life. He who comes to me will not be hungry.",
+      "image_path": "images/obs/story_030.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_031",
+      "chapter": 31,
+      "title_en": "Jesus Walks on Water",
+      "key_verse_ref": "Matthew 14:33",
+      "key_verse_en": "Truly you are the Son of God!",
+      "image_path": "images/obs/story_031.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_032",
+      "chapter": 32,
+      "title_en": "Jesus Heals a Demon-Possessed Man and a Sick Woman",
+      "key_verse_ref": "Mark 5:34",
+      "key_verse_en": "Daughter, your faith has made you well. Go in peace.",
+      "image_path": "images/obs/story_032.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_033",
+      "chapter": 33,
+      "title_en": "The Story of the Farmer",
+      "key_verse_ref": "Mark 4:20",
+      "key_verse_en": "Those that were sown on the good ground are those who hear the word, and accept it, and bear fruit.",
+      "image_path": "images/obs/story_033.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_034",
+      "chapter": 34,
+      "title_en": "Jesus Teaches Other Stories",
+      "key_verse_ref": "Matthew 13:31",
+      "key_verse_en": "The Kingdom of Heaven is like a grain of mustard seed.",
+      "image_path": "images/obs/story_034.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_035",
+      "chapter": 35,
+      "title_en": "The Story of the Compassionate Father",
+      "key_verse_ref": "Luke 15:24",
+      "key_verse_en": "This, my son, was dead, and is alive again. He was lost, and is found.",
+      "image_path": "images/obs/story_035.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_036",
+      "chapter": 36,
+      "title_en": "The Transfiguration",
+      "key_verse_ref": "Matthew 17:5",
+      "key_verse_en": "This is my beloved Son, in whom I am well pleased. Listen to him.",
+      "image_path": "images/obs/story_036.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_037",
+      "chapter": 37,
+      "title_en": "Jesus Raises Lazarus from the Dead",
+      "key_verse_ref": "John 11:25",
+      "key_verse_en": "I am the resurrection and the life. He who believes in me will still live, even if he dies.",
+      "image_path": "images/obs/story_037.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_038",
+      "chapter": 38,
+      "title_en": "Jesus Is Betrayed",
+      "key_verse_ref": "Luke 22:42",
+      "key_verse_en": "Father, if you are willing, remove this cup from me. Nevertheless, not my will, but yours, be done.",
+      "image_path": "images/obs/story_038.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_039",
+      "chapter": 39,
+      "title_en": "Jesus Is Put on Trial",
+      "key_verse_ref": "John 18:37",
+      "key_verse_en": "For this reason I have been born, and for this reason I have come into the world, that I should testify to the truth.",
+      "image_path": "images/obs/story_039.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_040",
+      "chapter": 40,
+      "title_en": "Jesus Is Crucified",
+      "key_verse_ref": "John 3:16",
+      "key_verse_en": "For God so loved the world, that he gave his one and only Son, that whoever believes in him should not perish, but have eternal life.",
+      "image_path": "images/obs/story_040.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_041",
+      "chapter": 41,
+      "title_en": "God Raises Jesus from the Dead",
+      "key_verse_ref": "Matthew 28:6",
+      "key_verse_en": "He is not here, for he has risen, just like he said.",
+      "image_path": "images/obs/story_041.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_042",
+      "chapter": 42,
+      "title_en": "Jesus Returns to Heaven",
+      "key_verse_ref": "Matthew 28:19",
+      "key_verse_en": "Go and make disciples of all nations.",
+      "image_path": "images/obs/story_042.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_043",
+      "chapter": 43,
+      "title_en": "The Church Begins",
+      "key_verse_ref": "Acts 2:21",
+      "key_verse_en": "It will be that whoever will call on the name of the Lord will be saved.",
+      "image_path": "images/obs/story_043.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_044",
+      "chapter": 44,
+      "title_en": "Peter and John Heal a Beggar",
+      "key_verse_ref": "Acts 4:12",
+      "key_verse_en": "There is salvation in no one else, for there is no other name under heaven that is given among men, by which we must be saved.",
+      "image_path": "images/obs/story_044.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_045",
+      "chapter": 45,
+      "title_en": "Stephen and Philip",
+      "key_verse_ref": "Acts 8:35",
+      "key_verse_en": "Beginning from this Scripture, he preached to him Jesus.",
+      "image_path": "images/obs/story_045.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_046",
+      "chapter": 46,
+      "title_en": "Saul Becomes a Follower of Jesus",
+      "key_verse_ref": "Acts 9:15",
+      "key_verse_en": "He is my chosen vessel to bear my name before the nations.",
+      "image_path": "images/obs/story_046.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_047",
+      "chapter": 47,
+      "title_en": "Paul and Silas in Philippi",
+      "key_verse_ref": "Acts 16:31",
+      "key_verse_en": "Believe in the Lord Jesus Christ, and you will be saved, you and your household.",
+      "image_path": "images/obs/story_047.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_048",
+      "chapter": 48,
+      "title_en": "Jesus Is the Promised Messiah",
+      "key_verse_ref": "Romans 5:8",
+      "key_verse_en": "While we were yet sinners, Christ died for us.",
+      "image_path": "images/obs/story_048.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_049",
+      "chapter": 49,
+      "title_en": "God's New Covenant",
+      "key_verse_ref": "John 14:6",
+      "key_verse_en": "I am the way, the truth, and the life. No one comes to the Father, except through me.",
+      "image_path": "images/obs/story_049.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    },
+    {
+      "id": "obs_050",
+      "chapter": 50,
+      "title_en": "Jesus Returns",
+      "key_verse_ref": "Revelation 21:4",
+      "key_verse_en": "He will wipe away every tear from their eyes. Death will be no more; neither will there be mourning, nor crying, nor pain, any more.",
+      "image_path": "images/obs/story_050.webp",
+      "image_license": "CC-BY-SA-4.0",
+      "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
+    }
+  ]
+}

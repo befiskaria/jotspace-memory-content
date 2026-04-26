@@ -1,0 +1,16 @@
+# Don't commit fetched assets — they get fetched fresh on each build
+source/obs/
+source/_staging/
+
+# Don't commit built zip files — they go to GitHub Releases instead
+packs/*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
