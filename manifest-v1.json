@@ -2,50 +2,76 @@
   "manifest_version": 1,
   "min_app_version": "1.0.18",
   "generated_at": "2026-04-26T00:00:00Z",
-  "license_summary_url": "https://github.com/REPLACE_OWNER/jotspace-memory-content/blob/main/LICENSES.md",
-  "github_repo_url": "https://github.com/REPLACE_OWNER/jotspace-memory-content",
+  "license_summary_url": "https://github.com/befiskaria/jotspace-memory-content/blob/main/LICENSES.md",
+  "github_repo_url": "https://github.com/befiskaria/jotspace-memory-content",
   "release_tag": "v1",
   "packs": {
     "core_en": {
-      "url": "https://github.com/REPLACE_OWNER/jotspace-memory-content/releases/download/v1/memory-core-en.zip",
-      "size_bytes_estimate": 12000000,
-      "sha256": "REPLACED_BY_BUILD_SCRIPT",
-      "contains": ["images/obs/*.webp", "text/en/*.json"],
+      "url": "https://github.com/befiskaria/jotspace-memory-content/releases/download/v1/memory-core-en.zip",
+      "size_bytes_estimate": 2793810,
+      "sha256": "1fccb69c6c51c4c374020812c662188963b5720001ef156c5cfcc55740a403fa",
+      "contains": [
+        "images/obs/*.webp",
+        "text/en/*.json"
+      ],
       "required": true,
       "description": "50 illustrated Open Bible Stories with English text"
     },
     "audio_en": {
-      "url": "https://github.com/REPLACE_OWNER/jotspace-memory-content/releases/download/v1/memory-audio-en.zip",
+      "url": "https://github.com/befiskaria/jotspace-memory-content/releases/download/v1/memory-audio-en.zip",
       "size_bytes_estimate": 80000000,
       "sha256": "PHASE_3_NOT_YET_BUILT",
-      "contains": ["audio/obs_en/*.ogg"],
+      "contains": [
+        "audio/obs_en/*.ogg"
+      ],
       "required": false,
-      "requires": ["core_en"],
+      "requires": [
+        "core_en"
+      ],
       "description": "English audio narration for the 50 stories"
     },
     "lang_hi": {
-      "url": "https://github.com/REPLACE_OWNER/jotspace-memory-content/releases/download/v1/memory-lang-hi.zip",
+      "url": "https://github.com/befiskaria/jotspace-memory-content/releases/download/v1/memory-lang-hi.zip",
       "size_bytes_estimate": 8000000,
       "sha256": "PHASE_2_NOT_YET_BUILT",
-      "contains": ["text/hi/*.json", "ui/hi.json"],
+      "contains": [
+        "text/hi/*.json",
+        "ui/hi.json"
+      ],
       "required": false,
-      "requires": ["core_en"],
+      "requires": [
+        "core_en"
+      ],
       "description": "Hindi translation of stories and UI"
     },
     "lang_ml": {
-      "url": "https://github.com/REPLACE_OWNER/jotspace-memory-content/releases/download/v1/memory-lang-ml.zip",
+      "url": "https://github.com/befiskaria/jotspace-memory-content/releases/download/v1/memory-lang-ml.zip",
       "size_bytes_estimate": 8000000,
       "sha256": "PHASE_2_NOT_YET_BUILT",
-      "contains": ["text/ml/*.json", "ui/ml.json"],
+      "contains": [
+        "text/ml/*.json",
+        "ui/ml.json"
+      ],
       "required": false,
-      "requires": ["core_en"],
+      "requires": [
+        "core_en"
+      ],
       "description": "Malayalam translation of stories and UI"
     }
   },
   "bundled_story_ids": [
-    "obs_001", "obs_002", "obs_007", "obs_010",
-    "obs_015", "obs_018", "obs_021", "obs_026",
-    "obs_037", "obs_038", "obs_042", "obs_043"
+    "obs_001",
+    "obs_002",
+    "obs_007",
+    "obs_010",
+    "obs_015",
+    "obs_018",
+    "obs_021",
+    "obs_026",
+    "obs_037",
+    "obs_038",
+    "obs_042",
+    "obs_043"
   ],
   "stories": [
     {
@@ -548,5 +574,7 @@
       "image_license": "CC-BY-SA-4.0",
       "image_attribution": "Sweet Publishing — Open Bible Stories (unfoldingWord)"
     }
-  ]
+  ],
+  "bundled_pack_sha256": "bf66377b7151bed076e69d103051540752fde543339104aa407aa888fcca161c",
+  "bundled_pack_size_bytes": 385319
 }
