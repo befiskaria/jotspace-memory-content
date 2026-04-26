@@ -30,6 +30,8 @@ import hashlib
 import urllib.request
 from pathlib import Path
 
+sys.stdout.reconfigure(encoding='utf-8')
+
 try:
     from PIL import Image
 except ImportError:

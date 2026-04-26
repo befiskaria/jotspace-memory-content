@@ -11,6 +11,8 @@ import sys
 import zipfile
 from pathlib import Path
 
+sys.stdout.reconfigure(encoding='utf-8')
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 PACKS_DIR = REPO_ROOT / "packs"
 MANIFEST_PATH = REPO_ROOT / "manifest-v1.json"
