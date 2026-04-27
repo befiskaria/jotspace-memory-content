@@ -1,7 +1,7 @@
 {
   "manifest_version": 1,
   "min_app_version": "1.0.18",
-  "generated_at": "2026-04-26T00:00:00Z",
+  "generated_at": "2026-04-27T00:00:00Z",
   "license_summary_url": "https://github.com/befiskaria/jotspace-memory-content/blob/main/LICENSES.md",
   "github_repo_url": "https://github.com/befiskaria/jotspace-memory-content",
   "release_tag": "v1",
@@ -32,31 +32,35 @@
     },
     "lang_hi": {
       "url": "https://github.com/befiskaria/jotspace-memory-content/releases/download/v1/memory-lang-hi.zip",
-      "size_bytes_estimate": 8000000,
-      "sha256": "PHASE_2_NOT_YET_BUILT",
+      "size_bytes_estimate": 5011,
+      "sha256": "43e5bc04f8bf6eee543a8514f45ba47979d3bfacbd09ddb8c20b5bdfe55fe157",
       "contains": [
-        "text/hi/*.json",
-        "ui/hi.json"
+        "text/hi/stories.json"
       ],
       "required": false,
       "requires": [
         "core_en"
       ],
-      "description": "Hindi translation of stories and UI"
+      "source": "Door43-Catalog/hi_obs (v8.2)",
+      "license": "CC BY-SA 4.0",
+      "story_count": 50,
+      "description": "Hindi translation of 50 story titles and key verses (text only; images shared from core_en)"
     },
     "lang_ml": {
       "url": "https://github.com/befiskaria/jotspace-memory-content/releases/download/v1/memory-lang-ml.zip",
-      "size_bytes_estimate": 8000000,
-      "sha256": "PHASE_2_NOT_YET_BUILT",
+      "size_bytes_estimate": 5381,
+      "sha256": "19dec88cfe7fbed80d735cf819fa831d3230e53be2984ed0ab92cc7bd000c007",
       "contains": [
-        "text/ml/*.json",
-        "ui/ml.json"
+        "text/ml/stories.json"
       ],
       "required": false,
       "requires": [
         "core_en"
       ],
-      "description": "Malayalam translation of stories and UI"
+      "source": "Door43-Catalog/ml_obs (v5.3)",
+      "license": "CC BY-SA 4.0",
+      "story_count": 50,
+      "description": "Malayalam translation of 50 story titles and key verses (text only; images shared from core_en)"
     }
   },
   "bundled_story_ids": [
